@@ -2,7 +2,7 @@
 
 import 'package:flutter/foundation.dart';
 import 'package:google_maps_cluster_manager_2/google_maps_cluster_manager_2.dart';
-import 'package:google_maps_flutter_platform_interface/google_maps_flutter_platform_interface.dart';
+import 'package:google_maps_flutter_platform_interface/google_maps_flutter_platform_interface.dart' hide Cluster;
 
 @immutable
 class Cluster<T extends ClusterItem> {
